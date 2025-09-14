@@ -50,3 +50,6 @@ app.*.map.json
 /web
 /windows
 /linux
+
+
+!/build/web/

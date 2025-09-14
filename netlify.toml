@@ -1,0 +1,11 @@
+[build]
+  # Command to build Flutter Web
+  command = "flutter build web"
+  # Publish the Flutter web build output
+  publish = "build/web"
+
+# Optional: Redirect all routes to index.html (for SPAs)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
